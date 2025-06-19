@@ -1,0 +1,67 @@
+.popup {
+    top: 10%;
+    left: 50%;
+  margin: 5%;
+  width: 60%;
+visibility: hidden;
+  position: absolute;
+  background-color: rgba(30, 30, 31, 0.927);
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  z-index: 1;
+  height: 100%;
+
+   transform: translatex(-50%) scale(0.5);
+      transition: 
+    opacity 0.3s ease 0s,
+    transform 0.3s ease 0s,
+    visibility 0s linear 0.1s;
+}
+
+.genre3 .popup{
+   background-color:rgba(0, 0, 0, 0.883);  
+}
+
+.genre-inv-img:hover .popup {
+    display: block;
+    transform: translatex(-50%) scale(1);
+    visibility: visible;
+    transition-delay: 0s;
+   
+
+
+}
+.popup div{
+    display: flex;
+    justify-content: center;
+     text-align: center;
+     flex-direction: column;
+     align-items: center;
+   
+}
+.popup a{
+    color: white;
+}
+.popup img{
+    width: 250px;
+    height: 175px;
+   
+}
+
+.comment{
+    font-size: small;
+    font-style: italic;
+    opacity: 0.65;
+    margin-top: 0;
+}
+
+a:hover{
+    color: rgba(255, 255, 255, 0.297);
+}
+.a-button:hover{
+    background-color: rgb(55, 0, 0);
+}
+a img:hover{
+    opacity: 0.5;
+}
