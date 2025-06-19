@@ -1,16 +1,30 @@
+@font-face {
+    font-family: 'montserrat' ;
+    src: url(font/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
 
-
+html{
+      scroll-behavior: smooth;
+}
+body h1,h2,h3,p,a{
+    font-family: 'montserrat';
+}
+.p1{
+    font-size: 24px;
+}
 body {
     padding: 0;
     margin: 0;
     
 }
- nav a{
+.nav-div2 a{
     color: white;
     padding-right: 35px;
     font-size: larger;
  }
-  
+nav a{
+    color: white;
+}
 header{
 
     color: white;
@@ -18,20 +32,27 @@ header{
    
 }
 nav {
-    background-color: rgba(0, 0, 0, 0.72);
+    background-color: rgba(0, 0, 0, 0.826);
     width: 100%;
     position:fixed;
     display: flex;
-    padding:  10px 0;
+    padding: 5px 0;
      z-index: 10;
+     align-items: center;
 
    
 }
 nav div{
-    width: 50%;
     margin-left: 10%;
-    
     }
+.nav-div1{
+     width: 20%;
+}
+nav a img{
+    background-color: white;
+    border-radius: 2px;
+}
+
 .greet{
     background-image: url(img/magic-fairytale-book-concept.jpg) ;
     background-size: cover;
@@ -53,12 +74,13 @@ nav div{
 .text{
     width: 50%;
 }
-.home .greet a{
-    background-color: rgb(192, 86, 0);
+.a-button{
+    background-color: rgb(161, 24, 6);
     border: none;
-     box-shadow: 0 0 2px 2px #0000009f;
+    border-radius: 5px;
+     box-shadow: 0 2px 2px #00000072;
     color: white;
-    font-size: small;
+    font-size: 18px;
     padding: 8px 20px;
     text-decoration: none;
 }
@@ -101,6 +123,9 @@ nav div{
 .genre{
         overflow: hidden;
 }
+.genre i{
+    opacity: 0.5;
+}
 .genre1{
     background-color: rgb(63, 15, 15);
     align-items: center;
@@ -126,7 +151,12 @@ nav div{
     flex-direction: column;
     color: white;
 }
-
+.genre2 a{
+    color: black;
+}
+.genre3 a{
+    color: white;
+}
 
 .genre-img{
   
@@ -145,7 +175,7 @@ nav div{
      height: 300px;
     
 }
-.home .genre img{
+.genre img{
     box-shadow: 5px 5px 0 0 rgba(0, 0, 0, 0.482);
     width: 250px;
     height: 175px;
@@ -154,19 +184,58 @@ nav div{
    
 }
 .genre h1{
-    margin-top: 20px;
+    margin-top: 75px;
    text-align: center;
 
    font-size: 40px;
 }
 
 #contact{
-    background-color: rgb(63, 15, 15) ;
-    height: 50vh;
+
+
+    display: flex;
+    padding: 10% 5%;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    background-image: url(img/magic-fairytale-book-concept.jpg);
+    background-position: top;
+    background-size: 2000px;
+  
+
 }
 
+
+.contact-form{
+    color: white;
+    background-image: url(img/magic-fairytale-book-concept.jpg);
+    background-position:center;
+    background-size: cover;
+    width: 30%;
+    height: 200px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px black ;
+
+   
+}
+.contact-form p{
+    border: 2px;
+}
+.socials img{
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.469) ;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: white;
+  
+}
+
+
 #footer{
-  padding: 20px;
+  padding: 10px;
     background-color: black;
     display: flex;
   
