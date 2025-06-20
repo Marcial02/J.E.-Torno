@@ -56,12 +56,12 @@ visibility: hidden;
     margin-top: 0;
 }
 
-a:hover{
+a:hover:active{
     color: rgba(255, 255, 255, 0.297);
 }
-.a-button:hover{
+.a-button:hover:active{
     background-color: rgb(55, 0, 0);
 }
-a img:hover{
+a img:hover:active{
     opacity: 0.5;
 }
